@@ -60,10 +60,14 @@ The dataset includes the following features:
 * waterpoint_type_group - The kind of waterpoint
 
 # 3. Modeling
+In order to build a predictive model for the water pump functional status, I used the Gradient Boosting Classifier and Random Forest Classifier algorithms. I first split the available data into training and validation sets to assess the performance of our models. Then, I performed a grid search over different hyperparameters for the Random Forest Classifier to find the best set of hyperparameters that would give us the highest validation accuracy.
 
-# 4. Evaluation
+# 4. Results
+The best model I found using the grid search had a validation accuracy of 0.783. The best hyperparameters found for the Random Forest Classifier were: 'min_samples_split': 8, 'n_estimators': 1000
 
 # 5. Conclusion
+The model is able to predict the functionality status of a water pump with an accuracy of 0.783, which is a relatively good performance. This can be used to aid in decision making and maintenance planning for the water pumps in Tanzania.
+However, it is important to note that this is a limited sample and there is room for improvement with more data or additional feature engineering.
 
 Repo Navigation
 * data/ <--- Well Data Provided by DrivenData
