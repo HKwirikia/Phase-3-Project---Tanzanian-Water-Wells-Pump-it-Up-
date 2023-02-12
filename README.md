@@ -66,8 +66,8 @@ The dataset includes the following features:
 # 5. Conclusion
 
 Repo Navigation
-data/ <--- Well Data Provided by DrivenData
-Final Notebook - Jupyter Notebook.pdf <--- PDF of Final Notebook
-Final Notebook.ipynb <--- Final Project Jupyter Notebook
-Presentation.pdf <--- PDF of Project Presentation to the Tanzania Ministy of Water
-README.md <--- README.md that you are currently reading
+* data/ <--- Well Data Provided by DrivenData
+* Final Notebook - Jupyter Notebook.pdf <--- PDF of Final Notebook
+* Final Notebook.ipynb <--- Final Project Jupyter Notebook
+* Presentation.pdf <--- PDF of Project Presentation to the Tanzania Ministy of Water
+* README.md <--- README.md that you are currently reading
