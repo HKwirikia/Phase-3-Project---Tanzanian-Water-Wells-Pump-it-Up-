@@ -10,7 +10,7 @@ And with a population of over 57 million, it is crucial to ensure that the count
 The problem that MSABI faces is that they must prioritise their efforts and allocate resources effectively to address this issue.
 
 But, currently, MSABU has limited information about the condition of water wells in the country making it difficult to determine which wells are most in need of attention.
-# 2. Data Understandig
+# 2. Data Understanding
 The project utilizes data from Taarifa and Tanzanian Ministry of Water. The data includes information on 59,400 waterpoints.
 
 There are three datasets available for this project, the training set labels, the training set values, and the test set values.
@@ -59,7 +59,7 @@ The dataset includes the following features:
 * waterpoint_type - The kind of waterpoint
 * waterpoint_type_group - The kind of waterpoint
 
-# 3. Modeling
+# 3. Modelling
 In order to build a predictive model for the water pump functional status, I used the Gradient Boosting Classifier and Random Forest Classifier algorithms. I first split the available data into training and validation sets to assess the performance of our models. Then, I performed a grid search over different hyperparameters for the Random Forest Classifier to find the best set of hyperparameters that would give us the highest validation accuracy.
 
 # 4. Results
